@@ -1,0 +1,13 @@
+
+number1 = 100
+number2 = 150
+number3 = 200
+
+if (number1 >= number2) and (number1 >= number3):
+   largest = number1
+elif (number2 >= number1) and (number2 >= number3):
+   largest = number2
+else:
+   largest = number3
+
+print("The largest number is", largest)
